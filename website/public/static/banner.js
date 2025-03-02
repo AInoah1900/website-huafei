@@ -11,7 +11,7 @@ function htmlToElements(html) {
 
 function main() {
   // const logoUrl = "https://the-guild.dev/static/logo.png";
-  const linkUrl = 'http://localhost:3000/';
+  const linkUrl = 'http://localhost:3000';
   // const title = "The Guild - Open Source";
   const docusaurusId = '__docusaurus';
 

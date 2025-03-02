@@ -25,7 +25,7 @@ async function generateRSS() {
 
   const feed = new RSS({
     title: 'The Guild Blog',
-    site_url: 'https://the-guild.dev',
+    site_url: 'http://localhost:3000',
     feed_url: 'https://the-guild.dev/feed.xml',
   });
 

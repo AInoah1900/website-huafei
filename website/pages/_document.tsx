@@ -5,12 +5,12 @@ import { getCssText } from '../stitches.config';
 export default class MyDocument extends Document {
   render() {
     return (
-      <Html lang="en">
+      <Html lang="zh-CN">
         <Head>
           <OrganizationJsonLd
-            url="http://localhost:3000/"
-            logo="../public/static/logo.svg"
-            name="The Guild"
+            url="http://localhost:3000"
+            logo="http://localhost:3000/static/logo.svg"
+            name="华飞科技"
           />
           <style dangerouslySetInnerHTML={{ __html: getCssText() }} />
           <meta charSet="utf-8" />

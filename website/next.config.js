@@ -6,7 +6,7 @@ export default withGuildDocs({
   },
   env: {
     // needs for canonical <link />
-    SITE_URL: 'https://the-guild.dev',
+    SITE_URL: 'http://localhost:3000',
   },
   output: 'export',
   redirects: () =>
