@@ -8,9 +8,9 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <OrganizationJsonLd
-            url="https://the-guild.dev"
+            url="http://localhost:3000/"
             logo="../public/static/logo.svg"
-            name="The Guild1"
+            name="The Guild"
           />
           <style dangerouslySetInnerHTML={{ __html: getCssText() }} />
           <meta charSet="utf-8" />

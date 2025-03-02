@@ -11,7 +11,7 @@ function ensureAbsolute(url: string): string {
   return url.startsWith('/') ? `https://the-guild.dev${url}` : url;
 }
 
-const siteDescription = 'Modern, Open-source API Tooling and Ecosystem that scales';
+const siteDescription = 'AI数字智能产业领导者，提供智能数据分析、决策支持系统和企业数字化转型解决方案。';
 const siteName = '华飞科技';
 
 export default defineConfig({
@@ -74,9 +74,9 @@ export default defineConfig({
     StackBlitz,
     Steps,
   },
-  websiteName: 'The Guild',
+  websiteName: '华飞科技',
   description: siteDescription,
   search: {
-    placeholder: 'Search…',
+    placeholder: '搜索…',
   },
 });
