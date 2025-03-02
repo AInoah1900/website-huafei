@@ -62,7 +62,7 @@ async function syncToDevTo(items) {
           month: 'long',
           day: 'numeric',
         },
-      )} by [${author.name}](${author.link}) @ [The Guild Blog](https://the-guild.dev/)\n\n${
+      )} by [${author.name}](${author.link}) @ [ Blog](https://the-guild.dev/)\n\n${
         item.markdown
       } `;
       const image = item.meta.image

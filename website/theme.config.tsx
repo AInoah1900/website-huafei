@@ -12,7 +12,7 @@ function ensureAbsolute(url: string): string {
 }
 
 const siteDescription = 'Modern, Open-source API Tooling and Ecosystem that scales';
-const siteName = 'The Guild';
+const siteName = '华飞科技';
 
 export default defineConfig({
   backgroundColor: {
