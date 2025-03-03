@@ -143,11 +143,11 @@ function main() {
         }
 
         :root {
-          --logo-bg: url("${linkUrl}/static/logo.svg") no-repeat;
+          --logo-bg: url("${linkUrl}/static/your-logo.svg") no-repeat;
         }
 
         [data-theme="dark"] {
-          --logo-bg: url("${linkUrl}/static/white-logo.png") no-repeat;
+          --logo-bg: url("${linkUrl}/static/your-white-logo.png") no-repeat;
         }
 
         .g-header-logo {
